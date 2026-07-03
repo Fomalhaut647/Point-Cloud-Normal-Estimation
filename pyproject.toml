@@ -1,7 +1,26 @@
 [project]
 name = "point-cloud-normal-estimation"
 version = "0.1.0"
-description = "Add your description here"
+description = "Globally-consistent point-cloud normal estimation: WNNC reproduction, a pure-PyTorch dense reimplementation, and a 3-method benchmark with Poisson reconstruction."
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+requires-python = ">=3.10"
+# NOTE: torch (2.3.0+cu121, matching the CUDA 12.1 toolkit / RTX 4090 sm_89 image)
+# is provided by the base image; install it separately per README, e.g.
+#   uv pip install torch==2.3.0 --index-url https://download.pytorch.org/whl/cu121
+# The official WNNC CUDA extension is built from WNNC/ext (see README).
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "open3d",
+    "trimesh",
+    "pymeshlab",
+    "matplotlib",
+    "pandas",
+    "tqdm",
+    "plyfile",
+    "tabulate",
+]
+
+[tool.uv]
+package = false

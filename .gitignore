@@ -1,13 +1,33 @@
-# Python-generated files
+# Python
 __pycache__/
 *.py[oc]
 build/
 dist/
 wheels/
 *.egg-info
+.venv/
+.python-version
 
-# Virtual environments
-.venv
+# The official WNNC baseline is cloned separately (see README), not vendored here.
+WNNC/
 
-# Custom
+# Large, regenerable data — fetched by download_data.py / prepare_data.py
+data/meshes_raw/
+data/pointclouds/
+data/meshes/
+
+# Large, regenerable results — keep only CSVs and figures (small) under version control
+results/normals/
+results/meshes/
+results/*.log
+report/*.pdf.bak
+
+# keep: results/csv/**, results/figs/**  (small, report-facing)
+!results/csv/
+!results/figs/
+
+# assignment spec (delivered separately)
 选题1-WNNC点云法向估计-实现报告.md
+
+# OS
+.DS_Store
