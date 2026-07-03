@@ -1,0 +1,6 @@
+model,armadillo,armadillo,armadillo,armadillo,bunny,bunny,bunny,bunny,dragon,dragon,dragon,dragon,sphere,sphere,sphere,sphere,torus,torus,torus,torus
+variant,clean,sigmap0025,sigmap005,sigmap01,clean,sigmap0025,sigmap005,sigmap01,clean,sigmap0025,sigmap005,sigmap01,clean,sigmap0025,sigmap005,sigmap01,clean,sigmap0025,sigmap005,sigmap01
+method,,,,,,,,,,,,,,,,,,,,
+ours_torch,1.0,0.9966,0.98015,0.873525,1.0,0.995525,0.982925,0.8283,0.999075,0.99485,0.9806,0.925925,1.0,0.98205,0.855625,0.531675,1.0,0.999475,0.99215,0.911175
+pca_mst,0.99795,0.015525,0.9819,0.882825,1.0,0.999625,0.99575,0.94805,0.966475,0.961625,0.948275,0.858175,1.0,1.0,0.99995,0.987225,1.0,1.0,0.99985,0.98375
+wnnc_cuda,1.0,0.9974,0.978075,0.91995,1.0,0.996025,0.9816,0.89895,0.99905,0.99515,0.97955,0.924675,1.0,0.978275,0.87435,0.5294,1.0,0.9993,0.99395,0.9032

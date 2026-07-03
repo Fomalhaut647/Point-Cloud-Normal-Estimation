@@ -1,0 +1,21 @@
+model,variant,WNNC (official CUDA),Ours (pure PyTorch),PCA+MST (Hoppe'92)
+sphere,clean,1.0,1.0,1.0
+sphere,sigmap0025,0.978275,0.98205,1.0
+sphere,sigmap005,0.87435,0.855625,0.99995
+sphere,sigmap01,0.5294,0.531675,0.987225
+torus,clean,1.0,1.0,1.0
+torus,sigmap0025,0.9993,0.999475,1.0
+torus,sigmap005,0.99395,0.99215,0.99985
+torus,sigmap01,0.9032,0.911175,0.98375
+bunny,clean,1.0,1.0,1.0
+bunny,sigmap0025,0.996025,0.995525,0.999625
+bunny,sigmap005,0.9816,0.982925,0.99575
+bunny,sigmap01,0.89895,0.8283,0.94805
+armadillo,clean,1.0,1.0,0.99795
+armadillo,sigmap0025,0.9974,0.9966,0.015525
+armadillo,sigmap005,0.978075,0.98015,0.9819
+armadillo,sigmap01,0.91995,0.873525,0.882825
+dragon,clean,0.99905,0.999075,0.966475
+dragon,sigmap0025,0.99515,0.99485,0.961625
+dragon,sigmap005,0.97955,0.9806,0.948275
+dragon,sigmap01,0.924675,0.925925,0.858175
